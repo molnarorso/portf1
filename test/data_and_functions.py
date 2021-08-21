@@ -1,12 +1,9 @@
 import time
 from selenium.common.exceptions import NoSuchElementException
 import pytest
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-# import pyautogui
-# pyautogui.PAUSE = 2.5
 
 
 URL = "https://demoqa.com/"
@@ -26,8 +23,6 @@ def demo_site_starting(driver):
         driver.find_element_by_xpath("//img[@title='Ad.Plus Advertising']").click()
     except:
         pass
-    time.sleep(0.1)
-    # driver.execute_script("document.body.style.zoom='0.5'")
     time.sleep(0.1)
 
 
