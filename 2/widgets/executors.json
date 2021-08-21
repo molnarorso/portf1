@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://molnarorso.github.io/portf1",
+  "buildOrder" : 2,
+  "buildName" : "GitHub Actions Run #1153521189",
+  "buildUrl" : "https://github.com/molnarorso/portf1/actions/runs/1153521189",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://molnarorso.github.io/portf1/2/"
+} ]
