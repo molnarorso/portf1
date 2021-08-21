@@ -40,4 +40,3 @@ class TestElementsTextBox(object):
         assert registered_email.text == f"Email:{complying_email}"
         assert registered_current_address.text == f"Current Address :{complying_current_address}"
         assert registered_permanent_address.text == f"Permananet Address :{complying_permanent_address}"
-
