@@ -9,7 +9,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 class TestElementsTextBox(object):
     def setup(self):
         browser_options = Options()
-        browser_options.headless = False
+        browser_options.headless = True
         self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         demo_site_starting(self.driver)
         wait_then_click(self.driver, 20, "//div[@class='category-cards']//div[1]//div[1]//div[1]")
