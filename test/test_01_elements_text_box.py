@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 class TestElementsTextBox(object):
     def setup(self):
         browser_options = Options()
-        browser_options.headless = True
+        browser_options.headless = False
         self.driver = webdriver.Chrome(ChromeDriverManager().install(), options=browser_options)
         demo_site_starting(self.driver)
         wait_then_click(self.driver, 20, "//div[@class='category-cards']//div[1]//div[1]//div[1]")
@@ -27,9 +27,9 @@ class TestElementsTextBox(object):
         self.driver.find_element_by_xpath("//textarea[@id='currentAddress']").send_keys(complying_current_address)
         self.driver.find_element_by_xpath("//textarea[@id='permanentAddress']").send_keys(complying_permanent_address)
         advertisement_control(self.driver)
-        time.sleep(20)
-        # wait_then_click(self.driver, 20, '//*[@id="submit"]')
-        self.driver.find_element_by_xpath('//*[@id="submit"]').click()
+        time.sleep(10)
+        wait_then_click(self.driver, 20, '//*[@id="submit"]')
+        # self.driver.find_element_by_xpath('//*[@id="submit"]').click()
 
         registered_name = self.driver.find_element_by_xpath("//p[@id='name']")
         registered_email = self.driver.find_element_by_xpath("//p[@id='email']")

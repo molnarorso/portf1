@@ -18,38 +18,39 @@ complying_permanent_address = "1 Piazza Navona, 000123 Rome, Italy"
 
 
 def demo_site_starting(driver):
-    driver.implicitly_wait(1)
+    driver.implicitly_wait(0.1)
     driver.get(URL)
     driver.maximize_window()
-    time.sleep(0.5)
+    time.sleep(0.1)
     try:
         driver.find_element_by_xpath("//img[@title='Ad.Plus Advertising']").click()
     except:
         pass
-    time.sleep(0.5)
+    time.sleep(0.1)
     # driver.execute_script("document.body.style.zoom='0.5'")
-    time.sleep(1)
+    time.sleep(0.1)
 
 
 def advertisement_control(driver):
     try:
         driver.find_element_by_xpath("//img[@title='Ad.Plus Advertising']").click()
     except:
+        time.sleep(0.1)
         pass
 
 
 def wait_then_find(driver, seconds, xpath):
-    time.sleep(0.2)
+    time.sleep(3)
     clickable_element = WebDriverWait(driver, seconds).until(EC.visibility_of_element_located((By.XPATH, xpath)))
     clickable_element.click()
-    time.sleep(0.2)
+    time.sleep(3)
 
 
 def wait_then_click(driver, seconds, xpath):
-    time.sleep(0.2)
+    time.sleep(3)
     clickable_element = WebDriverWait(driver, seconds).until(EC.element_to_be_clickable((By.XPATH, xpath)))
     clickable_element.click()
-    time.sleep(0.2)
+    time.sleep(3)
 
 
 def element_does_not_exist_by_xpath(driver, xpath):
