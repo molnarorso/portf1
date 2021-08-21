@@ -4,13 +4,13 @@
     "name" : "test.test_01_elements_text_box",
     "children" : [ {
       "name" : "test_completing_form",
-      "uid" : "74303d9b46da16e5",
+      "uid" : "def13a4a670c7c3c",
       "parentUid" : "00507e7e382cca6074e88322e8a5453c",
       "status" : "passed",
       "time" : {
-        "start" : 1629546605360,
-        "stop" : 1629546609130,
-        "duration" : 3770
+        "start" : 1629546813310,
+        "stop" : 1629546816974,
+        "duration" : 3664
       },
       "flaky" : false,
       "newFailed" : false,

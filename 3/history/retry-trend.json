@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 2,
-  "reportUrl" : "https://molnarorso.github.io/portf1/2/",
+  "buildOrder" : 3,
+  "reportUrl" : "https://molnarorso.github.io/portf1/3/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 1,

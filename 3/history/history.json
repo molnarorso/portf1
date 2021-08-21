@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "74303d9b46da16e5",
-      "reportUrl" : "https://molnarorso.github.io/portf1/2//#testresult/74303d9b46da16e5",
+      "uid" : "def13a4a670c7c3c",
+      "reportUrl" : "https://molnarorso.github.io/portf1/3//#testresult/def13a4a670c7c3c",
       "status" : "passed",
       "time" : {
-        "start" : 1629546605360,
-        "stop" : 1629546609130,
-        "duration" : 3770
+        "start" : 1629546813310,
+        "stop" : 1629546816974,
+        "duration" : 3664
       }
     } ]
   }
