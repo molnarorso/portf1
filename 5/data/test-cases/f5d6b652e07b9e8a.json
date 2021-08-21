@@ -1,0 +1,78 @@
+{
+  "uid" : "f5d6b652e07b9e8a",
+  "name" : "test_completing_form",
+  "fullName" : "test.test_elements.test_elements_text_box.test_0001_elements_text_box___using_complying_data.TestElementsTextBoxUsingComplyingData#test_completing_form",
+  "historyId" : "d785ea823eaa34b8daacf27afa4f42e9",
+  "time" : {
+    "start" : 1629552191453,
+    "stop" : 1629552195154,
+    "duration" : 3701
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "71cd725e35dfc5a",
+      "name" : "log",
+      "source" : "71cd725e35dfc5a.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "e7176040d8bfffea",
+      "name" : "stderr",
+      "source" : "e7176040d8bfffea.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test.test_elements.test_elements_text_box"
+  }, {
+    "name" : "suite",
+    "value" : "test_0001_elements_text_box___using_complying_data"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestElementsTextBoxUsingComplyingData"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-803"
+  }, {
+    "name" : "thread",
+    "value" : "2824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_elements.test_elements_text_box.test_0001_elements_text_box___using_complying_data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5d6b652e07b9e8a.json",
+  "parameterValues" : [ ]
+}

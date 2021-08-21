@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Aug 21 13:23:21 GMT 2021","Sat Aug 21 13:23:33 GMT 2021","12396","test.test_elements.test_elements_text_box","test_0002_elements_text_box__using_wrong_emai_formats","TestElementsTextBoxUsingWrongEmailFormats","","","test_completing_form",""
+"passed","Sat Aug 21 13:23:11 GMT 2021","Sat Aug 21 13:23:15 GMT 2021","3701","test.test_elements.test_elements_text_box","test_0001_elements_text_box___using_complying_data","TestElementsTextBoxUsingComplyingData","","","test_completing_form",""

@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Aug 21 12:38:30 GMT 2021","Sat Aug 21 12:38:34 GMT 2021","3579","test.test_elements.test_elements_text_box","test_01_elements_text_box","TestElementsTextBox","","","test_completing_form",""

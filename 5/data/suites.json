@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test.test_elements.test_elements_text_box",
+    "children" : [ {
+      "name" : "test_0001_elements_text_box___using_complying_data",
+      "children" : [ {
+        "name" : "TestElementsTextBoxUsingComplyingData",
+        "children" : [ {
+          "name" : "test_completing_form",
+          "uid" : "f5d6b652e07b9e8a",
+          "parentUid" : "20149dd0a1aab311bb05c4ba8036a514",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629552191453,
+            "stop" : 1629552195154,
+            "duration" : 3701
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "20149dd0a1aab311bb05c4ba8036a514"
+      } ],
+      "uid" : "38a9ffc6eb0e34f25447a219fdfa30cb"
+    }, {
+      "name" : "test_0002_elements_text_box__using_wrong_emai_formats",
+      "children" : [ {
+        "name" : "TestElementsTextBoxUsingWrongEmailFormats",
+        "children" : [ {
+          "name" : "test_completing_form",
+          "uid" : "ae638efbbdc7530",
+          "parentUid" : "284b09b33cb7d5d857d60c07b1d83363",
+          "status" : "passed",
+          "time" : {
+            "start" : 1629552201222,
+            "stop" : 1629552213618,
+            "duration" : 12396
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "284b09b33cb7d5d857d60c07b1d83363"
+      } ],
+      "uid" : "cd3ee6a74ab24e79879c749040fe31d6"
+    } ],
+    "uid" : "ca93254a8920467f5f2dbfef2629a7c5"
+  } ],
+  "name" : "suites"
+}
