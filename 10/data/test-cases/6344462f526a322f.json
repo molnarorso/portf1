@@ -1,0 +1,78 @@
+{
+  "uid" : "6344462f526a322f",
+  "name" : "test_completing_form",
+  "fullName" : "test.test_01_elements_text_box.TestElementsTextBox#test_completing_form",
+  "historyId" : "b17025102ac7423b64acb6b48add7a5b",
+  "time" : {
+    "start" : 1629516391792,
+    "stop" : 1629516395449,
+    "duration" : 3657
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3190a3c330368f0a",
+      "name" : "log",
+      "source" : "3190a3c330368f0a.txt",
+      "type" : "text/plain",
+      "size" : 642
+    }, {
+      "uid" : "62dcbd5ddc60719a",
+      "name" : "stderr",
+      "source" : "62dcbd5ddc60719a.txt",
+      "type" : "text/plain",
+      "size" : 435
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_elements_text_box"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestElementsTextBox"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-650"
+  }, {
+    "name" : "thread",
+    "value" : "2884-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_01_elements_text_box"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6344462f526a322f.json",
+  "parameterValues" : [ ]
+}
