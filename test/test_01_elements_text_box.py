@@ -26,8 +26,8 @@ class TestElementsTextBox(object):
         self.driver.find_element_by_xpath("//input[@id='userEmail']").send_keys(complying_email)
         self.driver.find_element_by_xpath("//textarea[@id='currentAddress']").send_keys(complying_current_address)
         self.driver.find_element_by_xpath("//textarea[@id='permanentAddress']").send_keys(complying_permanent_address)
+        time.sleep(1)
         advertisement_control(self.driver)
-        time.sleep(10)
         wait_then_click(self.driver, 20, '//*[@id="submit"]')
         # self.driver.find_element_by_xpath('//*[@id="submit"]').click()
 
