@@ -6,13 +6,13 @@
       "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 581). Other element would receive the click: <footer>...</footer>\n  (Session info: headless chrome=92.0.4515.131)",
       "children" : [ {
         "name" : "test_completing_form",
-        "uid" : "6db6d6a427c71cf7",
+        "uid" : "64771ad48aa04f90",
         "parentUid" : "59c5b9189c77663f79fafaa970dae2a0",
         "status" : "broken",
         "time" : {
-          "start" : 1629514684984,
-          "stop" : 1629514690774,
-          "duration" : 5790
+          "start" : 1629514706030,
+          "stop" : 1629514711833,
+          "duration" : 5803
         },
         "flaky" : false,
         "newFailed" : false,

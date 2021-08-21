@@ -9,14 +9,14 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6db6d6a427c71cf7",
-      "reportUrl" : "https://molnarorso.github.io/portf1/8//#testresult/6db6d6a427c71cf7",
+      "uid" : "64771ad48aa04f90",
+      "reportUrl" : "https://molnarorso.github.io/portf1/8//#testresult/64771ad48aa04f90",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button id=\"submit\" type=\"button\" class=\"btn btn-primary\">...</button> is not clickable at point (572, 581). Other element would receive the click: <footer>...</footer>\n  (Session info: headless chrome=92.0.4515.131)",
       "time" : {
-        "start" : 1629514684984,
-        "stop" : 1629514690774,
-        "duration" : 5790
+        "start" : 1629514706030,
+        "stop" : 1629514711833,
+        "duration" : 5803
       }
     } ]
   }
