@@ -40,17 +40,17 @@ def advertisement_control(driver):
 
 
 def wait_then_find(driver, seconds, xpath):
-    time.sleep(3)
+    time.sleep(1)
     clickable_element = WebDriverWait(driver, seconds).until(EC.visibility_of_element_located((By.XPATH, xpath)))
     clickable_element.click()
-    time.sleep(3)
+    time.sleep(1)
 
 
 def wait_then_click(driver, seconds, xpath):
-    time.sleep(3)
+    time.sleep(1)
     clickable_element = WebDriverWait(driver, seconds).until(EC.element_to_be_clickable((By.XPATH, xpath)))
     clickable_element.click()
-    time.sleep(3)
+    time.sleep(1)
 
 
 def element_does_not_exist_by_xpath(driver, xpath):
