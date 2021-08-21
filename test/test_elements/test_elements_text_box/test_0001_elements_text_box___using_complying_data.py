@@ -1,4 +1,4 @@
-from data_and_functions_for_textbox import *
+from data_and_functions_for_elements_text_box import *
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 
 
-class TestElementsTextBox(object):
+class TestElementsTextBoxUsingComplyingData(object):
     def setup(self):
         browser_options = Options()
         browser_options.headless = True
@@ -45,3 +45,4 @@ class TestElementsTextBox(object):
         assert registered_email.text == f"Email:{complying_email}"
         assert registered_current_address.text == f"Current Address :{complying_current_address}"
         assert registered_permanent_address.text == f"Permananet Address :{complying_permanent_address}"
+        assert self.driver.find_element_by_xpath("//input[@class='mr-sm-2 form-control']").is_enabled()
