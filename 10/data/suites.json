@@ -8,13 +8,13 @@
         "name" : "TestElementsTextBox",
         "children" : [ {
           "name" : "test_completing_form",
-          "uid" : "6344462f526a322f",
+          "uid" : "36ace7b769224ec3",
           "parentUid" : "66411d243c114b8a622ab8606cd4cda6",
           "status" : "passed",
           "time" : {
-            "start" : 1629516391792,
-            "stop" : 1629516395449,
-            "duration" : 3657
+            "start" : 1629516410511,
+            "stop" : 1629516414110,
+            "duration" : 3599
           },
           "flaky" : false,
           "newFailed" : false,
