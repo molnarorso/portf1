@@ -1,10 +1,10 @@
 [ {
-  "uid" : "1d6ec57961e7f657",
+  "uid" : "d47c078ebc11429c",
   "name" : "test_completing_form",
   "time" : {
-    "start" : 1629513918727,
-    "stop" : 1629513933516,
-    "duration" : 14789
+    "start" : 1629513924948,
+    "stop" : 1629513939805,
+    "duration" : 14857
   },
   "status" : "broken",
   "severity" : "normal"
