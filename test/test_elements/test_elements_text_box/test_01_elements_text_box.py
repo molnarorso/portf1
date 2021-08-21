@@ -1,4 +1,4 @@
-from data_and_functions import *
+from data_and_functions_for_textbox import *
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
@@ -18,7 +18,7 @@ class TestElementsTextBox(object):
 
     def teardown(self):
         time.sleep(0.1)
-        # self.driver.quit()
+        self.driver.quit()
 
     # TC001: Completing form using complying data
     def test_completing_form(self):
